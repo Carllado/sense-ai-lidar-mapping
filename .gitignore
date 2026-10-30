@@ -8,3 +8,10 @@ venv/
 *.tmp
 *.log
 data/raw/
+
+# R session history
+.Rhistory
+
+# Local SDK checkout and backup files
+/rplidar_sdk/
+*.backup.*
