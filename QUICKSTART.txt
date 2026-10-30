@@ -1,0 +1,10 @@
+1. Unzip SenseAI_GitHub_Milestone_Starter.zip.
+2. Open Terminal and go to the extracted folder, for example:
+   cd ~/Downloads/SenseAI_GitHub_Milestone_Starter
+3. Test the verified detector:
+   python3 sense_ai_change_detector_v2.py --threshold-mm 100 --min-bins 3
+4. Test the NEW experimental localization stage:
+   python3 sense_ai_localize_v1.py --threshold-mm 100 --min-bins 3
+5. Open README.md and figures/*.png; edit docs/experiments.md to match your records.
+6. Once reviewed, initialize a Git repo and publish it to a new repository.
+7. This is post-HackMIT RPLIDAR development, not a claim that SLAM/object recognition was completed at HackMIT.
